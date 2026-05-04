@@ -7,7 +7,6 @@ const navLinks = [
   { label: 'Home', href: '#hero' },
   { label: 'About', href: '#about' },
   { label: 'Products', href: '#products' },
-  { label: 'Gallery', href: '#gallery' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -36,9 +35,10 @@ export default function Header() {
   }, [menuOpen])
 
   const handleNavClick = (href, label) => {
-    smoothScrollTo(href)
     setMenuOpen(false)
     trackCTA(`nav_${label.toLowerCase()}`)
+    // Delay scroll until menu closes and body overflow unlocks
+    setTimeout(() => smoothScrollTo(href), 300)
   }
 
   return (
