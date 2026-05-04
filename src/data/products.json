@@ -1,0 +1,42 @@
+{
+  "categories": [
+    {
+      "id": "disposables",
+      "name": "Disposables",
+      "icon": "zap",
+      "description": "Nasty Bar, Boggz, HYPE, VELO, ZYN",
+      "detail": "9K, 16K & 20K puff counts. Trusted brands, fresh stock, always.",
+      "priceRange": "R60 – R359",
+      "brands": ["Nasty Bar", "Boggz", "HYPE", "VELO", "ZYN"]
+    },
+    {
+      "id": "refillables",
+      "name": "Refillables & E-Liquids",
+      "icon": "droplet",
+      "description": "60+ SKU selection. Beudla Industries. Devices R150–R450",
+      "detail": "Premium local SA brand Beudla Industries plus a curated 60+ SKU e-liquid wall.",
+      "priceRange": "R150 – R450",
+      "brands": ["Beudla Industries"]
+    },
+    {
+      "id": "hookah",
+      "name": "Hookah Rental",
+      "icon": "flame",
+      "description": "Rental R150 · Refills R50 each · 14 flavours",
+      "detail": "Take it home or enjoy in-store. 14 hand-picked flavours, freshly packed.",
+      "pricing": {
+        "rental": 150,
+        "refill": 50
+      }
+    },
+    {
+      "id": "pouches",
+      "name": "Nicotine Pouches",
+      "icon": "circle",
+      "description": "VELO & ZYN — various strengths",
+      "detail": "Tobacco-free satisfaction. Multiple strengths for every preference.",
+      "priceRange": "Varies",
+      "brands": ["VELO", "ZYN"]
+    }
+  ]
+}

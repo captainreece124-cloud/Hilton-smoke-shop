@@ -1,0 +1,22 @@
+{
+  "business": {
+    "name": "Hilltop Smoke Shop",
+    "tagline": "Local. Independent. Community.",
+    "established": "2022",
+    "phone": "+27820899752",
+    "phoneDisplay": "+27 82 089 9752",
+    "address": "32 Hilton Avenue, Hilton Village Centre, Pietermaritzburg, KZN",
+    "instagram": "hilltop.smoke.shop",
+    "instagramUrl": "https://instagram.com/hilltop.smoke.shop",
+    "whatsappUrl": "https://wa.me/27820899752?text=Hi%20Hilltop%2C%20I%27d%20like%20to%20know%20more%20about...",
+    "hours": [
+      { "days": "Monday – Saturday", "time": "9:00 AM – 6:00 PM" },
+      { "days": "Sunday", "time": "10:00 AM – 4:00 PM" }
+    ]
+  },
+  "stats": [
+    { "label": "Established", "value": 2022, "prefix": "", "suffix": "", "isYear": true },
+    { "label": "E-Liquid SKUs", "value": 60, "prefix": "", "suffix": "+" },
+    { "label": "Hookah Flavours", "value": 14, "prefix": "", "suffix": "" }
+  ]
+}
